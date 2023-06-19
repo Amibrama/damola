@@ -1,28 +1,57 @@
 .project {
-    background: #393735;
-    color: white;
-    padding: 50px;
-}
+    color: rgb(0, 0, 0);
 
-.images {
-    display: flex;
+    font-family: "Indie Flower", cursive;
+    border-top: 1px solid black;
 }
-
-.images img {
-    width: 420px;
-    height: 460px;
-    margin-right: 40px;
+.project h1, h2 {
+    font-family: 'Inria Serif', serif;
 }
-
 .project__card {
     display: flex;
-    margin: 50px;
+
     justify-content: space-between;
+
+    border: 1px solid white;
+    padding: 70px;
+
+        color: black;
+}
+
+
+
+.project__card1 {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin: auto;
+    background: #393735;
+        color: #d9d9d9;
+}
+
+.project__card:nth-child(even) {
+    flex-direction: row-reverse;
+    background: #393735;
+        color: #d9d9d9;
+
 }
 
 .projectimage img {
     width: 420px;
     height: 560px;
     margin-right: 40px;
+}
+
+.project__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.project__info p {
+    font-size: 20px;
+line-height: 3.5;
 }
