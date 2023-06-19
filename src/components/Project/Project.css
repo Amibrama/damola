@@ -12,9 +12,8 @@
 
     justify-content: space-between;
 
-    border: 1px solid white;
     padding: 70px;
-
+/* background: #393735; */
         color: black;
 }
 
@@ -27,13 +26,16 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    background: #393735;
+    /* background: #393735; */
+    background: #000000;
+
         color: #d9d9d9;
 }
 
 .project__card:nth-child(even) {
     flex-direction: row-reverse;
-    background: #393735;
+    /* background: #393735; */
+        background: #000000;
         color: #d9d9d9;
 
 }

@@ -3,6 +3,8 @@ import About from "./components/About/About";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Project from "./components/Project/Project";
+import Facts from "./components/Facts/Facts";
+import Footer from "./components/Footer/Footer";
 
 import "./App.css";
 
@@ -14,6 +16,8 @@ function App() {
       <Education />
       <Experience />
       <Project />
+      <Facts />
+      <Footer />
     </div>
   );
 }

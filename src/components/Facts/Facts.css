@@ -1,0 +1,26 @@
+.fact__container {
+    background: #393735;
+    padding: 50px;
+    color: #d9d9d9
+}
+
+.fact__container h1 {
+    margin-bottom: 20px;
+}
+
+.facts {
+    display: flex;
+    gap: 50px;
+}
+
+.fact__board img {
+    border-radius: 30px;
+    width: 550px;
+    box-shadow: 0 0 20px 0 rgba(68, 66, 66, 0.3);
+}
+
+.fact__text p {
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    line-height: 2.5;
+}
