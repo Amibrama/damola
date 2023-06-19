@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inria+Serif:wght@300;400&display=swap');
+
+.experience {
+    margin-top: 20px;
+    border-top: 1px solid black;
+    padding: 50px;
+    font-family: "Indie Flower", cursive;
+    margin-left: 120px;
+}
+
+.experience h1 {
+    font-size: 68px;
+    font-family: 'Inria Serif', serif;
+}
+
+.skills{
+    position: relative;
+}
+
+.skill {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-180%, -180%);
+        font-size: 18px;
+        line-height: 1;
+        text-align: center;
+        color: rgba(135, 52, 52, 0.71);
+    
+}
+
+.skillText p{
+    width: 203px;
+    font-size: 24px;
+}
+
+.skillsets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.skillset ul {
+    font-size: 25px;
+    line-height: 1.7;
+}

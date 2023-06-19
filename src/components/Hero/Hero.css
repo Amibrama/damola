@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Irish+Grover&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background: #d9d9d9;
+    margin: 0;
+        align-items: center;
+            justify-content: center;
+            display: flex;
+                flex-direction: column;
+                height: 100vh;
+}
+
+.hero {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    margin-bottom: 0;
+    
+}
+
+.hero h1 {
+
+    display: flex;
+    font-size: 280px;
+    font-family: 'Indie Flower', cursive;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 300px;
+}
+
+.oo {
+    position: relative;
+
+}
+
+.number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    line-height: 1;
+    text-align: center;
+    font-family: 'Inria Serif', serif;
+    color: rgba(135, 52, 52, 0.71);
+    cursor: pointer;
+}
+
+.number img {
+    width: 50px;
+    height: 50px;
+}
+
+.scribble {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translateY(-120%);
+        font-size: 18px;
+        line-height: 1;
+        text-align: center;
+        font-family: 'Inria Serif', serif;
+        color: rgba(135, 52, 52, 0.71);
+}
+
+.name {
+    display: flex;
+    font-size: 24px;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-300%);
+        line-height: 1;
+        text-align: center;
+    font-family: 'Indie Flower', cursive;
+    width: 180px;
+    cursor: pointer;
+}
+
+.designer {
+    margin-top: 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 44px;
+    position: relative;
+}
+
+.doddle {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+        line-height: 1;
+        text-align: center;
+        font-family: 'Inria Serif', serif;
+        color: rgba(135, 52, 52, 0.71);
+}
+

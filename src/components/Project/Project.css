@@ -1,0 +1,28 @@
+.project {
+    background: #393735;
+    color: white;
+    padding: 50px;
+}
+
+.images {
+    display: flex;
+}
+
+.images img {
+    width: 420px;
+    height: 460px;
+    margin-right: 40px;
+}
+
+.project__card {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectimage img {
+    width: 420px;
+    height: 560px;
+    margin-right: 40px;
+}
