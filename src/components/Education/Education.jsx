@@ -17,14 +17,14 @@ const Education = () => {
               University.
             </li>
             <li>
-              <span className="underlined">Google UX Design Course,</span>
+              <span className="yellow">Google UX Design Course,</span>
               Coursera: I further expanded my knowledge and expertise in UX
               design through the Google UX Design Course on Coursera.{" "}
             </li>
             <li>
-              UI/UX Design Boot camp: To enhance my skills and stay up-to-date
-              with the latest industry practices, I completed a rigorous UI/UX
-              Design Bootcamp.
+              <span className="yellow">UI/UX Design Boot camp:</span> To enhance
+              my skills and stay up-to-date with the latest industry practices,
+              I completed a rigorous UI/UX Design Bootcamp.
             </li>
           </ul>
         </div>
