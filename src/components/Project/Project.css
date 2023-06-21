@@ -1,23 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inria+Serif:wght@300;400&display=swap');
+
 .project {
     color: rgb(0, 0, 0);
-
     font-family: "Indie Flower", cursive;
     border-top: 1px solid black;
 }
-.project h1, h2 {
+
+.project h1,
+.project h2 {
     font-family: 'Inria Serif', serif;
 }
+
 .project__card {
     display: flex;
-
     justify-content: space-between;
-
     padding: 70px;
-/* background: #393735; */
-        color: black;
+    color: black;
 }
-
-
 
 .project__card1 {
     padding: 50px;
@@ -26,18 +25,14 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    /* background: #393735; */
     background: #000000;
-
-        color: #d9d9d9;
+    color: #d9d9d9;
 }
 
 .project__card:nth-child(even) {
     flex-direction: row-reverse;
-    /* background: #393735; */
-        background: #000000;
-        color: #d9d9d9;
-
+    background: #000000;
+    color: #d9d9d9;
 }
 
 .projectimage img {
@@ -50,10 +45,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .project__info p {
     font-size: 20px;
-line-height: 3.5;
+    line-height: 3.5;
 }
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+
+    /* Adjustments for screens up to 768px wide */
+    .project__card {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .project__card1 {
+        padding: 30px;
+    }
+
+    .projectimage img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* Add more media queries as needed for different screen sizes */

@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inria+Serif:wght@300;400&display=swap');
+
 .fact__container {
     background: #393735;
     padding: 50px;
-    color: #d9d9d9
+    color: #d9d9d9;
 }
 
 .fact__container h1 {
@@ -10,12 +12,14 @@
 
 .facts {
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
 .fact__board img {
     border-radius: 30px;
-    width: 550px;
+    width: 100%;
+    max-width: 550px;
     box-shadow: 0 0 20px 0 rgba(68, 66, 66, 0.3);
 }
 
@@ -24,3 +28,30 @@
     font-family: "Indie Flower", cursive;
     line-height: 2.5;
 }
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+
+    /* Adjustments for screens up to 768px wide */
+    .fact__container {
+        padding: 30px;
+    }
+
+    .fact__board img {
+        border-radius: 20px;
+        max-width: 100%;
+    }
+
+    .facts {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .fact__text p {
+        font-size: 18px;
+        line-height: 2;
+    }
+}
+
+/* Add more media queries as needed for different screen sizes */

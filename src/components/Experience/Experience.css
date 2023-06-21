@@ -13,23 +13,22 @@
     font-family: 'Inria Serif', serif;
 }
 
-.skills{
+.skills {
     position: relative;
 }
 
 .skill {
     position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-180%, -180%);
-        font-size: 18px;
-        line-height: 1;
-        text-align: center;
-        color: rgba(135, 52, 52, 0.71);
-    
+    top: 50%;
+    left: 50%;
+    transform: translate(-180%, -180%);
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    color: rgba(135, 52, 52, 0.71);
 }
 
-.skillText p{
+.skillText p {
     width: 203px;
     font-size: 24px;
 }
@@ -45,3 +44,39 @@
     font-size: 25px;
     line-height: 1.7;
 }
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+
+    /* Adjustments for screens up to 768px wide */
+    .experience {
+        padding: 30px;
+        margin-left: 0;
+    }
+
+    .experience h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .skill {
+        position: static;
+        transform: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .skillsets {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .skillset ul {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
+
+/* Add more media queries as needed for different screen sizes */

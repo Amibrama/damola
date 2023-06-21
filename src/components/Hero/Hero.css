@@ -8,11 +8,11 @@ a {
 .main {
     background: #d9d9d9;
     margin: 0;
-        align-items: center;
-            justify-content: center;
-            display: flex;
-                flex-direction: column;
-                height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .hero {
@@ -22,12 +22,9 @@ a {
     flex-direction: column;
     margin-top: 160px;
     margin-bottom: 0;
-    
 }
 
 .hero h1 {
-
-    display: flex;
     font-size: 280px;
     font-family: 'Indie Flower', cursive;
     align-items: center;
@@ -39,7 +36,6 @@ a {
 
 .oo {
     position: relative;
-
 }
 
 .number {
@@ -62,25 +58,24 @@ a {
 
 .scribble {
     position: absolute;
-        top: 50%;
-        left: 50%;
-        transform:translateY(-120%);
-        font-size: 18px;
-        line-height: 1;
-        text-align: center;
-        font-family: 'Inria Serif', serif;
-        color: rgba(135, 52, 52, 0.71);
+    top: 50%;
+    left: 50%;
+    transform: translateY(-120%);
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    font-family: 'Inria Serif', serif;
+    color: rgba(135, 52, 52, 0.71);
 }
 
 .name {
-    display: flex;
     font-size: 24px;
     position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-300%);
-        line-height: 1;
-        text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-300%);
+    line-height: 1;
+    text-align: center;
     font-family: 'Indie Flower', cursive;
     width: 180px;
     cursor: pointer;
@@ -95,13 +90,55 @@ a {
 
 .doddle {
     position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 18px;
-        line-height: 1;
-        text-align: center;
-        font-family: 'Inria Serif', serif;
-        color: rgba(135, 52, 52, 0.71);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    font-family: 'Inria Serif', serif;
+    color: rgba(135, 52, 52, 0.71);
 }
 
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+
+    /* Adjustments for screens up to 768px wide */
+    .main {
+        margin-top: 80px;
+    }
+
+    .hero {
+        margin-top: 80px;
+    }
+
+    .hero h1 {
+        font-size: 140px;
+        height: auto;
+    }
+
+    .name {
+        transform: translateY(-200%);
+        font-size: 18px;
+        width: 120px;
+    }
+
+    .designer {
+        font-size: 24px;
+    }
+
+    .number {
+        font-size: 16px;
+    }
+
+    .scribble {
+        font-size: 14px;
+    }
+
+    .doddle {
+        font-size: 14px;
+    }
+}
+
+/* Add more media queries as needed for different screen sizes */
